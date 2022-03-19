@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ictak.scripts.EmployeeRegistration"/>
+      <class name="com.ictak.scripts.EmployeeEmailValidationPage"/>
+      <class name="com.ictak.scripts.EmployeePasswordValidationPage"/>
+      <class name="com.ictak.scripts.Adminhome"/>
+      <class name="com.ictak.scripts.AdminCourse"/>
+      <class name="com.ictak.scripts.Adminaddcourse1"/>
+      <class name="com.ictak.scripts.AdminEditCourse"/>
+      <class name="com.ictak.scripts.Registerasnewstudentpage"/>
+      <class name="com.ictak.scripts.StudentEmailValidationPage"/>
+      <class name="com.ictak.scripts.Studentpassword"/>
+      <class name="com.ictak.scripts.Studentphonenumber"/>
+      <class name="com.ictak.scripts.StudentOptionalField"/>
+      <class name="com.ictak.scripts.Studentpayment1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

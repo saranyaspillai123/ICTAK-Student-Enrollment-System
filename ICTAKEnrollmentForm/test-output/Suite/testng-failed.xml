@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ictak.scripts.AdminEditCourse">
+        <methods>
+          <include name="onSetup"/>
+          <include name="verifyAdmincourseDelete"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.AdminEditCourse -->
+      <class name="com.ictak.scripts.Studentpassword">
+        <methods>
+          <include name="verifyStudentRegistrationPasswordNegative2"/>
+          <include name="verifyStudentRegistrationPasswordNegative1"/>
+          <include name="verifyStudentRegistrationPasswordNegative4"/>
+          <include name="onSetup"/>
+          <include name="verifyStudentRegistrationPasswordNegative3"/>
+          <include name="verifyStudentRegistrationPasswordPositive"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.Studentpassword -->
+      <class name="com.ictak.scripts.StudentEmailValidationPage">
+        <methods>
+          <include name="verifyStudentRegistrationEmailValidationNegative"/>
+          <include name="onSetup"/>
+          <include name="verifyStudentRegistrationEmailPositive"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.StudentEmailValidationPage -->
+      <class name="com.ictak.scripts.Studentphonenumber">
+        <methods>
+          <include name="verifyStudentRegistrationPhoneNegative1"/>
+          <include name="verifyStudentRegistrationPhonePositive"/>
+          <include name="onSetup"/>
+          <include name="verifyStudentRegistrationPhoneNegative2"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.Studentphonenumber -->
+      <class name="com.ictak.scripts.Registerasnewstudentpage">
+        <methods>
+          <include name="verifyStudentRegistrationPositive"/>
+          <include name="verifyStudentRegistrationCourseNegative"/>
+          <include name="onSetup"/>
+          <include name="verifyStudentRegistrationNegative"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.Registerasnewstudentpage -->
+      <class name="com.ictak.scripts.StudentOptionalField">
+        <methods>
+          <include name="onSetup"/>
+          <include name="verifyStudentOptional"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.StudentOptionalField -->
+      <class name="com.ictak.scripts.Adminhome">
+        <methods>
+          <include name="verifyAdminhomepagecourse"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.Adminhome -->
+      <class name="com.ictak.scripts.Studentpayment1">
+        <methods>
+          <include name="onSetup"/>
+          <include name="verifyStudentRegistrationPayment"/>
+        </methods>
+      </class> <!-- com.ictak.scripts.Studentpayment1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
